@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    
+    height: 40px;
+}
+nav a{
+    list-style-type: none;
+    padding-right: 20px;
+   transform: translatey(-83px);
+}
+img{
+    height: 70px;
+    padding-top: 30px;
+    padding-right : 30px;
+}
+a img{
+    height: 22px;
+    transform: translateX(2px) translateY(3.5px);
+}
+nav button{
+    border: 1.1px solid black;
+width: 120px;
+transform: translateY(-56px) translateX(10px);
+border-radius: 10px ;
+background-color: white;
+color: black;
+transition: all 0.2s ease-in-out;
+}
+.first{
+    padding-left: 40px;
+}
+nav button:hover{
+    color: rgb(129, 119, 119);
+    transition: all 0.2s ease-in-out;
+}
+.download{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px;
+    margin-left: 100px;
+    column-gap: 70px;
+    margin-top: 26px;
+    row-gap: 30px;
+    height: 600px;
+}
+.download div{
+    text-align: center;
+    background-color: rgb(250, 244, 244);
+    border-radius: 25px;
+    
+}
+.EB{
+    width: 190px;
+    margin-top: 55px;
+    background-color: rgb(102, 218, 102);
+    border-radius: 10px;
+    height: 33px;
+    cursor: pointer;
+    color: white;
+}
+
+.GB{
+    width: 190px;
+    margin-top: 36px;
+    background-color: rgb(102, 218, 102);
+    border-radius: 10px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+}
+.IB{
+    width: 190px;
+    margin-top: 36px;
+    background-color: rgb(102, 218, 102);
+    border-radius: 10px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+}
+.SB{
+    width: 190px;
+    margin-top: 36px;
+    background-color: rgb(102, 218, 102);
+    border-radius: 10px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+}
+.FB{
+    width: 190px;
+    margin-top: 36px;
+    background-color: rgb(102, 218, 102);
+    border-radius: 10px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+}
+.PB{
+    width: 190px;
+    margin-top: 36px;
+    background-color: rgb(102, 218, 102);
+    border-radius: 10px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+}
+.JB{
+    width: 190px;
+    margin-top: 36px;
+    background-color: rgb(102, 218, 102);
+    border-radius: 10px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+}
+.KB{
+    width: 190px;
+    margin-top: 36px;
+    background-color: rgb(102, 218, 102);
+    border-radius: 10px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+}
+.CB{
+    width: 190px;
+    margin-top: 36px;
+    background-color: rgb(102, 218, 102);
+    border-radius: 10px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+}
+.TB{
+    width: 190px;
+    margin-top: 36px;
+    background-color: rgb(102, 218, 102);
+    border-radius: 10px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+}

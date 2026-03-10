@@ -1,0 +1,97 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #646cff;
+  text-align: center;
+}
+
+.example {
+  border: 2px solid #646cff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+}
+
+.example h2 {
+  color: #646cff;
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+.example input {
+  padding: 8px;
+  margin: 10px 5px 10px 0;
+  border: 1px solid #646cff;
+  border-radius: 4px;
+  background-color: #0a0a0a;
+  color: #fff;
+  width: 200px;
+}
+
+.example input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.example p {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+.note {
+  color: #a0a0ff;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+.status {
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.status.loading {
+  color: #ffeb3b;
+  background-color: #5a5a00;
+}
+
+.status.error {
+  color: #ff6b6b;
+  background-color: #5a0a0a;
+}
+
+.user-info {
+  background-color: #0a0a0a;
+  padding: 15px;
+  border-left: 3px solid #646cff;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+
+.user-info p {
+  margin: 8px 0;
+}
+
+.info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info li {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #0a0a0a;
+  border-left: 3px solid #646cff;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+.info strong {
+  color: #646cff;
+}

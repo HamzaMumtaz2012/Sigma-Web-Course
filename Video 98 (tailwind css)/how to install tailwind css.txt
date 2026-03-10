@@ -1,0 +1,52 @@
+step 1 :
+open vs code then open terminal
+step 2 :
+type npm init -y
+this will create a package.json file then remove all the content and paste this :
+{
+"name": "video-98-(tailwind-css)",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1",
+"build-css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+"build-css-once": "npx tailwindcss -i ./src/input.css -o ./src/output.css"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
+"devDependencies": {
+"tailwindcss": "^3.3.3"
+}
+}
+}
+}
+
+step 3 :
+type npm install -D tailwindcss@3.3.3
+step 4 :
+dir node_modules\.bin
+step 5 :
+npx tailwindcss init
+step 6 :
+them make a folder which name is src in the folder you have to install tailwind
+step 7 :
+make a file which name is input.css in the src folder
+step 8 :
+paste this in the input.css file :
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+step 9 :
+so there is a tailwind.config.js check the file there is something like this content: [],
+so remove the content : [],
+and paste this :
+ content: ["./*.html", "./src/**/*.js"], // <- tell Tailwind where your HTML/JS is
+step 10 :
+then type this command in the terminal :
+npm run build-css
+after entering this command don't close the terminal until you finish your website
+step 11 (last step):
+go in the html file type this in the head tag :
+<link rel="stylesheet" href="src/output.css">

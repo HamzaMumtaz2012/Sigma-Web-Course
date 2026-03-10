@@ -1,0 +1,33 @@
+.container{
+    height: 70vh;
+    width: 1000px;
+    background: linear-gradient(to bottom, #87CEEB, #4682B4, #00008B);
+}
+.ball{
+    border-radius: 50%;
+    height: 10vh;
+    width: 10vh;
+    background-color: red;
+  animation: Hamza  3s ease-in-out  infinite;
+  
+}
+@keyframes Hamza{
+    0%{
+        transform: translateY(0);
+    }  10%{
+        transform: translateY(100);
+      
+    }  20%{
+        transform: translateY(-100);
+    }  40%{
+        transform: translateY(100);
+    }  60%{
+        transform: translateY(-100);
+    }  80%{
+        transform: translateY(100);
+    }
+    100%{
+        transform: translateY(-100);
+    }
+
+}

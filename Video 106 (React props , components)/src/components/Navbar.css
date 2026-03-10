@@ -1,0 +1,20 @@
+
+ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+ul {
+  padding: 25px;
+  background: black;
+  width: 100vw;
+  color: rgb(253, 253, 253);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+ul li:hover {
+  color: rgb(209, 193, 193);
+  transition: all 0.3s ease-in-out;
+}

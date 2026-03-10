@@ -1,0 +1,58 @@
+body{
+       background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRezR8WLuNP43vCy1s4GGxVREoNL7tq0r2qGw&s);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+h1{
+    font-family: "Poppins", sans-serif ;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+label{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+}
+form{
+    border: 1px solid;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    background-image: url(https://images.unsplash.com/photo-1503264116251-35a269479413?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80);
+    margin-top: 25%;
+    
+}
+.button{
+    height: 40px;
+    width: 210px;
+    margin-top: 5px;
+}
+input{
+    width: 200px;
+    background-color: grey;
+    color: black;
+}
+input::placeholder{
+    color: rgb(204, 193, 193);
+    opacity: ;
+}
+.button2,.button3{
+    width: 95px;
+    
+}
+input,label,button{
+    margin-left: 10px;
+}
+
+
+button:hover{
+    color: red;
+    background-color: cyan;
+}
+button{
+    font-family: "Poppins", sans-serif ;
+    font-weight: 500;
+}

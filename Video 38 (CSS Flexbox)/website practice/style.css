@@ -1,0 +1,125 @@
+.mainheading{
+    text-align: center;
+    font-size: 3em;
+
+}
+body{
+ 
+}
+.book-cover{
+    margin: 40px;
+    border-radius: 5%;
+    
+}
+.container{
+    display: flex;
+
+}
+.margin{
+    margin-top: 125px;
+    font-family: "poppins" sans-serif;
+    font-weight: 1000
+}
+.h33{
+    font-size: 22px;
+    margin: -10;
+    margin-top: 40px;
+}
+.p{
+    font-size: 22px;
+    
+}
+.keydetail{
+
+font-size: 22px;
+font-family: sans-serif;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+table{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+}
+.line{
+    border: 1px solid;
+}
+.line2{
+ border: 1px solid;
+
+}
+
+.tt{
+
+}
+.tr{
+    background: rgb(206, 255, 206);
+}
+blockquote{
+    background-color: #eef2f7;
+    border-left: 5px solid #4CAF50;
+    padding: 15px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #3f51b5;
+    border-radius: 8px;
+}
+.g{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+.aqua{
+    color: rgb(61, 61, 226);
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.hh{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin: 50px;
+}
+label{
+    font-size: 25px;
+}
+input{
+    width: 80vw;
+    height: 40px;
+    border-radius: 25px;
+}
+input::placeholder{
+    font-size: 20px;
+    
+}
+textarea{
+    width: 80vw;
+    height: 90px;
+    border-radius: 25px;
+    font-size: 30px;
+}
+form{
+    border-radius: 10%;
+    border: 1px solid #eee;
+}
+button{
+    background: green;
+    padding: 25px;
+    border-radius:5% ;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #45a049;
+}   
+.book-cover:hover{
+    background-color: orange;
+    color: white;
+}

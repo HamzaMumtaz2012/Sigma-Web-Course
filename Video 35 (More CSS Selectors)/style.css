@@ -1,0 +1,98 @@
+::selection{
+    color: aqua;
+ background-color: grey;   
+}
+header{
+    background-color: rgb(15, 15, 87);
+    color: white;
+    text-align: center;
+    height: 60px;
+    
+}
+.h1{
+padding-top: 5px;
+font-family: sans-serif;
+background-color: rgb(15, 15, 87);
+color: white;
+text-align: center;
+height: 60px;
+
+}
+.main{
+    height: 325px;
+    background-color: rgb(73, 73, 192);
+    color: white;
+  text-align: center;
+}
+body{
+    /* background-color: rgb(73, 73, 192); */
+}
+.main > h1{
+    padding-top: 40px;
+    font-size: 3em;
+    text-align: center;
+}
+.para{
+    font-size: 1.3em;
+    text-align: center;
+}
+button{
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+border-radius: 25px;
+transition: all 0.3s ease-in-out;
+}
+.btn{
+    background-color: lime;
+}
+.btn1{
+    background-color: orange;
+margin-left: 20px;
+}
+.btn:hover{
+background-color: rgb(81, 223, 81);
+transform: translateY(-7px);
+transition: all 0.3s ease-in-out;
+}
+.btn1:hover{
+    background-color: rgb(218, 166, 71);
+    transform: translateY(-7px);
+    transition: all 0.3s ease-in-out;   
+}
+.main1{
+    height: 250px;
+    background-color: white;
+    text-align: center;
+}
+.main1 > h2{
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.red{
+    color: red;
+    font-size: 1.1em;
+}
+.main2{
+    height: 200px;
+    background-color: azure;
+text-align: center;
+}
+.main2 > h2{
+    padding-top: 40px;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 50px;
+}
+.strong{
+    text-align: center;
+    padding-top: 10px;
+}

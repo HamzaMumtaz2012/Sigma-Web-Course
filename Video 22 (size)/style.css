@@ -1,0 +1,23 @@
+p{
+    background: aqua;
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    border: 2px solid;
+    box-sizing: border-box;
+    
+
+}
+div strong:first-child{
+font-size: 1em;
+    
+}
+h1{
+    font-size: 2em;
+}
+*{
+    font-size: 20px;
+}
+.rem{
+font-size: 2rem;  
+}

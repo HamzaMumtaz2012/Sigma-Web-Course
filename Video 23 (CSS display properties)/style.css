@@ -1,0 +1,6 @@
+div{
+    display: inline-block;
+    border: 2px solid cyan;
+    margin: 30px;
+    padding: 40px;
+}

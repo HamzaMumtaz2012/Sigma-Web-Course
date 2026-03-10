@@ -1,0 +1,9 @@
+body{
+    background-color: yellow;
+    text-transform: capitalize;
+    font-family: serif;
+    font-weight: bolder;
+}
+body > h1,h2,h3{
+    color: red;
+}

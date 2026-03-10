@@ -1,0 +1,56 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.example {
+  border: 1px solid #646cff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+}
+
+.example h2 {
+  color: #646cff;
+  margin-top: 0;
+}
+
+.example input {
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #646cff;
+  border-radius: 4px;
+  background-color: #0a0a0a;
+  color: #fff;
+  width: 100%;
+  max-width: 300px;
+}
+
+.example input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.example p {
+  margin: 10px 0;
+}
+
+.example ul {
+  list-style: none;
+  padding: 0;
+}
+
+.example li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #0a0a0a;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.example button {
+  margin: 5px;
+}
